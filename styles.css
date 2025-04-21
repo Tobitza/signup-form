@@ -1,0 +1,16 @@
+:root {
+    background-color: antiquewhite;
+}
+
+#bg-image-container {
+    border: 2px solid black;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#bg-image {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
