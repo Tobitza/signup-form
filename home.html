@@ -24,10 +24,40 @@
                 <q id="hero-text">The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown.</q>
                 <p >- H. P. Lovecraft</p>
             </div>
-            <div class="form-content">
-                <p>Yet you can opt to delve into the unknown with us</p>
+            <div class="form-container">
+                <p>Yet you can opt to delve into the unknown with us:</p>
+                <form action="https://httpbin.org/post" method="post" class="form-content">
+                    <div class="form-firstname">
+                        <label for="first_name">
+                            First Name:
+                        </label>
+                        <input type="text" name="first_name" id="first-name">
+                    </div>
+                    <div class="form-lastname">
+                        <label for="last_name">
+                            Last Name:
+                        </label>
+                        <input type="text" name="last_name" id="last-name">
+                    </div>
+                    <div class="form-email">
+                        email
+                    </div>
+                    <div class="form-phone">
+                        form-phone
+                    </div>
+                    <div class="form-pword">
+                        password
+                    </div>
+                    <div class="form-pword-confirm">
+                        password confirm
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 </body>
 </html>
+
+<!-- TODO:
+1. Finish assembling the form
+2. Style the form (labels/inputs/submit-button) -->
