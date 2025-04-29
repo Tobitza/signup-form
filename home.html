@@ -54,18 +54,19 @@
                         <label for="password">
                             Password
                         </label>
-                        <input type="password" name="password" placeholder='*****' id="password">
+                        <input type="password" name="password" placeholder='********' id="password" minlength="8">
                     </div>
                     <div class="form-field">
                         <label for="password-confirm">
                             Confirm Password:
                         </label>
-                        <input type="password" name="password-confirm" placeholder='*****' id="password-confirm">
+                        <input type="password" name="password-confirm" placeholder='********' id="password-confirm" minlength="8">
                     </div>
                 </form>
             </div>
+            <!-- THE SUBMIT BUTTON LOOKS BETTER OUTSIDE THE STYLIZED FORM -->
             <div class="submit-container">
-                <button type="submit" form="signup-form">Submit!</button>
+                <button type="submit" form="signup-form" id="submit-button">Join Us</button>
             </div>
         </div>
     </div>
@@ -73,4 +74,4 @@
 </html>
 
 <!-- TODO:
-1. Finish the Submit Button & Style it -->
+1. Make a span erro appear for invalid Email and Password/Confirm Password (Requires JS)-->
