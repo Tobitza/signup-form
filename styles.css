@@ -181,7 +181,7 @@ html, body {
 }
 
 .form-field input:invalid {
-    border: 1px solid rgba(255, 0, 0, 0.705);
+    border: 1px solid crimson;
 }
 
 .submit-container {
@@ -207,4 +207,11 @@ html, body {
     background: linear-gradient(135deg, #4361ee, #3a0ca3);
     box-shadow: 0 0 20px rgba(100, 100, 255, 0.5);
     transform: scale(1.05);
+}
+
+.error-message {
+    display: none;
+    color: crimson;
+    font-size: 1.25rem;
+    margin-top: 5px;
 }
